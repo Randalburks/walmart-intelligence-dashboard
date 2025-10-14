@@ -73,7 +73,6 @@ walmart-intelligence-dashboard/
 │   ├── sales_train_validation.csv  
 │   ├── _merged_m5.parquet  
 │   └── costs.csv  
-
 ├── exports/  
 │   ├── summaries/  
 │   └── figures/  
