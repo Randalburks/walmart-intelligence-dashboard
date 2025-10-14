@@ -46,7 +46,31 @@ These datasets are merged, cleaned, and preprocessed before visualization.
 > Optional: Upload your own `costs.csv` (columns: `store_id, item_id, unit_cost`) to add margin and profit metrics.
 
 ---
-
+walmart-intelligence-dashboard/
+├─ app.py
+├─ requirements.txt
+├─ .gitignore
+├─ README.md
+├─ .streamlit/
+│  └─ secrets.toml            # (optional, not committed if in .gitignore)
+├─ src/
+│  ├─ __init__.py
+│  ├─ preprocessing.py         # load_merge(), sample_panel()
+│  └─ utils.py                 # kpis, anomalies, baseline forecasts, helpers
+├─ notebooks/
+│  └─ eda_ida.ipynb            # IDA/EDA exploration (figures & reasoning)
+├─ data/                       # local-only inputs (not pushed to GitHub)
+│  ├─ calendar.csv             # (Kaggle M5)  — gitignored
+│  ├─ sell_prices.csv          # (Kaggle M5)  — gitignored
+│  ├─ sales_train_validation.csv # (Kaggle M5) — gitignored
+│  ├─ _merged_m5.parquet       # cached merge — gitignored
+│  └─ costs.csv                # optional unit costs (store_id,item_id,unit_cost)
+├─ exports/
+│  ├─ summaries/               # optional: saved markdown/CSVs from app
+│  └─ figures/                 # optional: saved charts for slides
+└─ docs/
+   └─ slides/                  # optional: presentation deck assets
+---
 ## Features
 
 ### 1. **Overview**
