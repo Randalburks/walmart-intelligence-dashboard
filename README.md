@@ -4,6 +4,17 @@
 **Author:** Randal Burks  
 **Purpose:** This project builds an interactive, executive-ready dashboard that summarizes key sales insights from Walmart’s M5 competition dataset. It connects descriptive, diagnostic, and prescriptive analytics — showing what happened, why it happened, and what actions to take.
 
+## Dataset and Source
+The raw datasets used for this project are part of the **Walmart M5 Forecasting Competition** on Kaggle:
+https://www.kaggle.com/competitions/m5-forecasting-accuracy/data
+
+You’ll need to download the following files and place them in your local `data/` folder:
+- `calendar.csv`
+- `sell_prices.csv`
+- `sales_train_validation.csv`
+
+These files are not included in this repository due to their size.
+Link to kaggle dataset: https://www.kaggle.com/competitions/m5-forecasting-accuracy
 ---
 
 ## Project Overview
