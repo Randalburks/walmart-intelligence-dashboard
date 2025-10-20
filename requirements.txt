@@ -1,7 +1,7 @@
-streamlit
-pandas
-numpy
-plotly
-scikit-learn
-requests
-pyarrow
+streamlit>=1.38
+pandas>=2.1
+numpy>=1.26
+pyarrow>=14
+requests>=2.31
+plotly>=5.20
+scikit-learn>=1.3
