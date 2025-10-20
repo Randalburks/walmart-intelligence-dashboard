@@ -2,3 +2,6 @@
 # ignore local data and env
 .venv/
 data/
+.DS_Store
+.venv/
+data/
