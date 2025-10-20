@@ -1,0 +1,8 @@
+# ignore everything under data...
+/data/*
+
+# ...but allow the CSV ZIPs
+!/data/*.zip
+
+# never commit parquet caches
+*.parquet

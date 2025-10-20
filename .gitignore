@@ -6,3 +6,11 @@
 
 # never commit parquet caches
 *.parquet
+# caches
+__pycache__/
+*.pyc
+.streamlit/
+src/__pycache__/
+*.parquet
+*.feather
+.DS_Store
