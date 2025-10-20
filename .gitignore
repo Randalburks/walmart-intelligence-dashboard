@@ -1,0 +1,4 @@
+
+# ignore local data and env
+.venv/
+data/
