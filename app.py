@@ -14,6 +14,7 @@ from src.utils import kpis_for_slice, anomaly_flags, seasonal_naive, moving_avg,
 
 # --- import bootstrap (keeps working on Streamlit Cloud and locally) ---
 import os, sys
+sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 SRC_DIR = os.path.join(REPO_DIR, "src")
 if SRC_DIR not in sys.path:
