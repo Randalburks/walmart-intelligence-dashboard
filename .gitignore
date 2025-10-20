@@ -1,9 +1,8 @@
+# ignore everything under data...
+/data/*
 
-# ignore local data and env
-.venv/
-data/
-.DS_Store
-.venv/
-data/
-*.parquet
+# ...but allow the CSV ZIPs
+!/data/*.zip
+
+# never commit parquet caches
 *.parquet
